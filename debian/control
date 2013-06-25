@@ -1,0 +1,12 @@
+Source: ros-groovy-freenect-launch
+Section: misc
+Priority: extra
+Maintainer: "Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-depth-image-proc, ros-groovy-freenect-camera, ros-groovy-image-proc, ros-groovy-nodelet, ros-groovy-tf
+Homepage: http://ros.org/wiki/freenect_launch
+Standards-Version: 3.9.2
+
+Package: ros-groovy-freenect-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-depth-image-proc, ros-groovy-freenect-camera, ros-groovy-image-proc, ros-groovy-nodelet, ros-groovy-tf
+Description: Launch files for freenect_camera to produce rectified, registered or disparity images. Also produce point clouds and registered point clouds. Based on the openni_launch package.
