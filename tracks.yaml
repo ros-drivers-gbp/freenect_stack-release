@@ -31,7 +31,7 @@ tracks:
     name: freenect_stack
     patches: null
     release_inc: -1
-    release_repo_url: null
+    release_repo_url: git@github.com:ros-drivers-gbp/freenect_stack-release.git
     release_tag: freenect_stack-:{version}
     ros_distro: hydro
     vcs_type: git
