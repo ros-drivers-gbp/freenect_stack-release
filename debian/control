@@ -1,0 +1,12 @@
+Source: ros-hydro-freenect-stack
+Section: misc
+Priority: extra
+Maintainer: "Jack O'Quin <jack.oquin@gmail.com>, Piyush Khandelwal <piyushk@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/freenect_stack
+Standards-Version: 3.9.2
+
+Package: ros-hydro-freenect-stack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-freenect-camera, ros-hydro-freenect-launch
+Description: A libfreenect-based ROS driver for the Microsoft Kinect
