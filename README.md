@@ -1,3 +1,25 @@
+## freenect_stack - 0.3.0-0
+
+User `piyushk@robot-devil` released the packages in the `freenect_stack` repository by running `/usr/bin/bloom-release --rosdistro hydro --track hydro freenect_stack --edit` on `Mon, 19 Aug 2013 16:51:36 -0000`
+
+These packages were released:
+- `freenect_camera`
+- `freenect_launch`
+- `freenect_stack`
+
+Version of package(s) in repository `freenect_stack`:
+- rosdistro version: `0.2.2-1`
+- old version: `0.2.2-1`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## freenect_stack - 0.2.2-1
 
 User `piyushk@zoidberg` released the packages in the `freenect_stack` repository by running `/usr/bin/bloom-release freenect_stack --track hydro --rosdistro hydro` on `Thu, 27 Jun 2013 18:52:47 -0000`
