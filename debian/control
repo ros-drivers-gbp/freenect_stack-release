@@ -1,0 +1,12 @@
+Source: ros-indigo-freenect-stack
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin
+Homepage: http://ros.org/wiki/freenect_stack
+Standards-Version: 3.9.2
+
+Package: ros-indigo-freenect-stack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-freenect-camera, ros-indigo-freenect-launch
+Description: A libfreenect-based ROS driver for the Microsoft Kinect
