@@ -1,3 +1,25 @@
+## freenect_stack (indigo) - 0.3.2-1
+
+The packages in the `freenect_stack` repository were released into the `indigo` distro by running `/usr/bin/bloom-release freenect_stack -r indigo -t indigo` on `Sat, 24 May 2014 20:49:57 -0000`
+
+These packages were released:
+- `freenect_camera`
+- `freenect_launch`
+- `freenect_stack`
+
+Version of package(s) in repository `freenect_stack`:
+- rosdistro version: `0.3.2-0`
+- old version: `0.3.2-0`
+- new version: `0.3.2-1`
+
+Versions of tools used:
+- bloom version: `0.5.9`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## freenect_stack (hydro) - 0.3.2-1
 
 The packages in the `freenect_stack` repository were released into the `hydro` distro by running `/usr/bin/bloom-release freenect_stack -r hydro -t hydro` on `Sat, 24 May 2014 20:47:47 -0000`
