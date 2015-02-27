@@ -1,3 +1,27 @@
+## freenect_stack (indigo) - 0.4.1-0
+
+The packages in the `freenect_stack` repository were released into the `indigo` distro by running `/usr/bin/bloom-release freenect_stack --track indigo --rosdistro indigo` on `Fri, 27 Feb 2015 19:21:48 -0000`
+
+These packages were released:
+- `freenect_camera`
+- `freenect_launch`
+- `freenect_stack`
+
+Version of package(s) in repository `freenect_stack`:
+- upstream repository: https://github.com/ros-drivers/freenect_stack.git
+- release repository: https://github.com/ros-drivers-gbp/freenect_stack-release.git
+- rosdistro version: `0.4.0-0`
+- old version: `0.4.0-0`
+- new version: `0.4.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## freenect_stack (indigo) - 0.4.0-0
 
 The packages in the `freenect_stack` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release --rosdistro indigo --track indigo freenect_stack --edit` on `Fri, 30 Jan 2015 21:22:27 -0000`
