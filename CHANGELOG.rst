@@ -2,6 +2,9 @@
 Changelog for package freenect_camera
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2015-02-27)
+------------------
+
 0.4.0 (2015-01-30)
 ------------------
 * Update header file to match libfreenect v0.5.1
