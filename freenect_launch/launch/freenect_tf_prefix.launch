@@ -65,7 +65,7 @@
   <arg name="diagnostics_min_frequency" default="30.0" />
   <arg name="diagnostics_tolerance" default="0.05" />
   <arg name="diagnostics_window_time" default="5.0" />
- 
+
   <!-- Push down all topics/nodelets into "camera" namespace -->
   <group ns="$(arg camera)">
 
@@ -105,7 +105,7 @@
       <arg name="diagnostics_tolerance"     value="$(arg diagnostics_tolerance)" />
       <arg name="diagnostics_window_time"   value="$(arg diagnostics_window_time)" />
     </include>
-    
+
     <!-- Load standard constellation of processing nodelets -->
     <include file="$(find rgbd_launch)/launch/includes/processing.launch.xml">
       <arg name="manager"                         value="$(arg manager)" />
@@ -124,7 +124,7 @@
       <arg name="hw_registered_processing"        value="$(arg hw_registered_processing)" />
       <arg name="sw_registered_processing"        value="$(arg sw_registered_processing)" />
     </include>
-  
+
   </group> <!-- camera -->
 
   <!-- Load reasonable defaults for the relative pose between cameras -->
@@ -133,4 +133,5 @@
     <arg name="camera" value="$(arg camera)" />
     <arg name="tf_prefix" value="$(arg tf_prefix)" />
   </include>
+
 </launch>
