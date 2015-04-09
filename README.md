@@ -1,3 +1,27 @@
+## freenect_stack (hydro) - 0.3.3-0
+
+The packages in the `freenect_stack` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --non-i freenect_stack --track hydro --rosdistro hydro --edit` on `Thu, 09 Apr 2015 18:22:49 -0000`
+
+These packages were released:
+- `freenect_camera`
+- `freenect_launch`
+- `freenect_stack`
+
+Version of package(s) in repository `freenect_stack`:
+- upstream repository: https://github.com/ros-drivers/freenect_stack.git
+- release repository: https://github.com/ros-drivers-gbp/freenect_stack-release.git
+- rosdistro version: `0.3.2-1`
+- old version: `0.3.2-1`
+- new version: `0.3.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## freenect_stack (indigo) - 0.4.1-0
 
 The packages in the `freenect_stack` repository were released into the `indigo` distro by running `/usr/bin/bloom-release freenect_stack --track indigo --rosdistro indigo` on `Fri, 27 Feb 2015 19:21:48 -0000`
