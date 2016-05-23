@@ -1,0 +1,47 @@
+ros-kinetic-freenect-stack (0.4.1-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Fri, 27 Feb 2015 06:00:00 -0000
+
+ros-kinetic-freenect-stack (0.4.0-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Fri, 30 Jan 2015 06:00:00 -0000
+
+ros-kinetic-freenect-stack (0.3.2-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Fri, 17 Jan 2014 06:00:00 -0000
+
+ros-kinetic-freenect-stack (0.3.1-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Thu, 16 Jan 2014 06:00:00 -0000
+
+ros-kinetic-freenect-stack (0.3.0-0jessie) jessie; urgency=high
+
+
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Mon, 19 Aug 2013 05:00:00 -0000
+
+ros-kinetic-freenect-stack (0.2.2-0jessie) jessie; urgency=high
+
+  * Hydro release (#7 <https://github.com/ros-drivers/freenect_stack/issues/7>).
+  * Added ``data_skip`` argument to launch files (#6 <https://github.com/ros-drivers/freenect_stack/issues/6>), thanks to Dane Powell.
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 25 Jun 2013 05:00:00 -0000
+
+ros-kinetic-freenect-stack (0.2.1-0jessie) jessie; urgency=high
+
+  * Groovy release update.
+  * Fixed nodelet description file installation (#5 <https://github.com/ros-drivers/freenect_stack/issues/5>).
+  * Fixed problem with streaming on a cold start of the machine (#3 <https://github.com/ros-drivers/freenect_stack/issues/3>).
+  * Minor CMake cleanup.
+
+ -- Jack O'Quin <jack.oquin@gmail.com>  Tue, 21 May 2013 05:00:00 -0000
+
+
