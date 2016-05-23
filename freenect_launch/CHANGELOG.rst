@@ -2,10 +2,13 @@
 Changelog for package freenect_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.3 (2015-04-09)
+0.4.1 (2015-02-27)
 ------------------
-* added tf_prefix version to Hydro for forward Indigo compatibility. closes `#18 <https://github.com/ros-drivers/freenect_stack/issues/18>`_.
-* Contributors: Piyush Khandelwal
+* fix tf_prefix leading slash issue `#13 <https://github.com/ros-drivers/freenect_stack/issues/13>`_
+* Contributors: Jihoon Lee, Piyush Khandelwal
+
+0.4.0 (2015-01-30)
+------------------
 
 0.3.2 (2014-01-17)
 ------------------
