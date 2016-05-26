@@ -1,3 +1,29 @@
+## freenect_stack (kinetic) - 0.4.2-0
+
+The packages in the `freenect_stack` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release freenect_stack -r kinetic -t kinetic` on `Thu, 26 May 2016 21:32:07 -0000`
+
+These packages were released:
+- `freenect_camera`
+- `freenect_launch`
+- `freenect_stack`
+
+Version of package(s) in repository `freenect_stack`:
+
+- upstream repository: https://github.com/ros-drivers/freenect_stack.git
+- release repository: https://github.com/ros-drivers-gbp/freenect_stack-release.git
+- rosdistro version: `0.4.1-0`
+- old version: `0.4.1-0`
+- new version: `0.4.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.5`
+- vcstools version: `0.1.38`
+
+
 ## freenect_stack (kinetic) - 0.4.1-0
 
 The packages in the `freenect_stack` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release freenect_stack -r kinetic -t kinetic -n` on `Mon, 23 May 2016 12:02:34 -0000`
