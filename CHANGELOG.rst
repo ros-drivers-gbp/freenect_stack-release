@@ -2,6 +2,9 @@
 Changelog for package freenect_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.2 (2016-05-26)
+------------------
+
 0.4.1 (2015-02-27)
 ------------------
 * fix tf_prefix leading slash issue `#13 <https://github.com/ros-drivers/freenect_stack/issues/13>`_
