@@ -15,6 +15,8 @@ find_package(catkin REQUIRED
 # CMake find_package() module.
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(LIBFREENECT REQUIRED libfreenect)
+pkg_check_modules(LOG4CXX REQUIRED liblog4cxx)
+
 find_library(LIBFREENECT_LIBRARY
   NAMES freenect
   PATHS ${LIBFREENECT_LIBRARY_DIRS}
@@ -29,7 +31,9 @@ find_package(Boost REQUIRED COMPONENTS thread)
 include_directories(include
                     ${catkin_INCLUDE_DIRS}
                     ${Boost_INCLUDE_DIR}
-                    ${LIBFREENECT_INCLUDE_DIRS})
+                    ${dynamic_reconfigure_PACKAGE_PATH}/cmake/cfgbuild.cmake
+                    ${LIBFREENECT_INCLUDE_DIRS}
+                    ${LOG4CXX_INCLUDE_DIRS})
 
 # build the node and nodelet
 add_executable(freenect_node src/nodes/freenect_node.cpp)
@@ -37,12 +41,15 @@ target_link_libraries(freenect_node
                       ${catkin_LIBRARIES}
                       ${LIBFREENECT_LIBRARY}
                       ${Boost_LIBRARY})
+add_dependencies(freenect_node ${PROJECT_NAME}_gencfg)
 
 add_library(freenect_nodelet src/nodelets/driver.cpp)
 target_link_libraries(freenect_nodelet
                       ${catkin_LIBRARIES}
                       ${LIBFREENECT_LIBRARY}
-                      ${Boost_LIBRARY})
+                      ${Boost_LIBRARY}
+                      ${LOG4CXX_LIBRARIES})
+add_dependencies(freenect_nodelet ${PROJECT_NAME}_gencfg)
 
 catkin_package(DEPENDS
                libfreenect
@@ -66,4 +73,3 @@ install(TARGETS freenect_nodelet
 # add xml file
 install(FILES freenect_nodelets.xml
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
-
