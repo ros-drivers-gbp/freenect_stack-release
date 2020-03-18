@@ -1,0 +1,13 @@
+Source: ros-melodic-freenect-launch
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/freenect_launch
+Standards-Version: 3.9.2
+
+Package: ros-melodic-freenect-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-freenect-camera, ros-melodic-image-proc, ros-melodic-nodelet, ros-melodic-rgbd-launch, ros-melodic-tf
+Description: Launch files for freenect_camera to produce rectified, registered or disparity images.
+ Also produce point clouds and registered point clouds. Based on the openni_launch package.
