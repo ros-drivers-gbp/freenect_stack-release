@@ -1,3 +1,29 @@
+## freenect_stack (melodic) - 0.4.3-1
+
+The packages in the `freenect_stack` repository were released into the `melodic` distro by running `/usr/bin/bloom-release freenect_stack --rosdistro melodic` on `Wed, 18 Mar 2020 14:47:42 -0000`
+
+These packages were released:
+- `freenect_camera`
+- `freenect_launch`
+- `freenect_stack`
+
+Version of package(s) in repository `freenect_stack`:
+
+- upstream repository: https://github.com/ros-drivers/freenect_stack.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.40`
+
+
 ## freenect_stack (kinetic) - 0.4.2-0
 
 The packages in the `freenect_stack` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release freenect_stack -r kinetic -t kinetic` on `Thu, 26 May 2016 21:32:07 -0000`
