@@ -1,0 +1,13 @@
+Source: ros-melodic-freenect-camera
+Section: misc
+Priority: optional
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfreenect-dev, liblog4cxx-dev, ros-melodic-camera-info-manager, ros-melodic-catkin, ros-melodic-diagnostic-updater, ros-melodic-dynamic-reconfigure, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-sensor-msgs
+Homepage: http://ros.org/wiki/freenect_camera
+Standards-Version: 3.9.2
+
+Package: ros-melodic-freenect-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfreenect-dev, liblog4cxx-dev, ros-melodic-camera-info-manager, ros-melodic-diagnostic-updater, ros-melodic-dynamic-reconfigure, ros-melodic-image-transport, ros-melodic-nodelet, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-sensor-msgs
+Description: A libfreenect-based ROS driver for the Microsoft Kinect.
+ This is a port of the OpenNI driver that uses libfreenect instead, because on some systems with some devices it works better.
